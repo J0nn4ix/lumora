@@ -10,6 +10,7 @@ O Lumora é um aplicativo para Windows, Android e navegador que organiza e repro
 - **Login por código:** se você entrar por email, usamos o endereço só para enviar o código de acesso.
 - **Reportar problema:** quando você envia um report, ele inclui a sua descrição, informações técnicas do aparelho (modelo, versão do sistema, memória, formatos de vídeo suportados) e o registro de erros do aplicativo. Você pode escolher se inclui o email da conta.
 - **Pessoas assistindo agora:** enquanto você assiste a um título, o aplicativo registra só um identificador anônimo (criado pelo Firebase, do Google) e o código do título, para mostrar quantas pessoas estão assistindo. O registro some quando você para de assistir ou fecha o app. Nenhum nome, email ou dado da conta é enviado. Dá para desligar em Configurações › Tela inicial › Pessoas assistindo agora.
+- **Watch Party:** quando você cria ou entra numa sala, o aplicativo envia para o Firebase (Google) o nome do seu perfil no Lumora, as mensagens e reações que você manda e, se você for o dono, o link do vídeo e a posição em que ele está, para que todos assistam juntos. Só quem tem o código da sala vê esses dados. Tudo é apagado quando o dono encerra a sala ou fecha o app.
 
 ## Onde os dados ficam
 
